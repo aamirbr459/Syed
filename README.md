@@ -1,6 +1,47 @@
 # Contact Center Solution with ERP, API & CRM Integration | Banking
 
-> Business analysis portfolio project. All documents here are sanitized and
+> **DUBAI CHARITY:**
+> 1) As an Agent I want to be able to Upon receiving a reply from the department, the agent will be notified as the agent's email address is included in the CC field of the email. This will inform the agent that a response has been received from the department regarding the ticket concern. 10. In response, the agent will review their email inbox and proceed to close the ticket by adding their comments. During the closure process, there should be a provision to send the ticket closure email to the customer, if needed. So that Customer will be notified
+Priority : High
+Module : Idle
+Sub Module : Email
+Description : Upon receiving a reply from the department, the agent will be notified as the agent's email address is included in the CC field of the email. This will inform the agent that a response has been received from the department regarding the ticket concern. 10. In response, the agent will review their email inbox and proceed to close the ticket by adding their comments. During the closure process, there should be a provision to send the ticket closure email to the customer, if needed.
+
+2) As an Admin I want to be able to An email should be triggered whenever the ticket's priority changes to "critical," which will be indicated by a red color. Once the initial email is sent, the department's data will be stored in the Convox database. Subsequently, Convox will send a reminder email to the same department email address So that Deparment will be notified
+Priority : High
+Module : Omnichannel
+Sub Module : Tickets Settings
+Description : Timeline priority change for the ticket • 24 hours then reminder for the regarded department if no answer came • 48 hours make it critical and should send an answer at least expect time to resolve the issue. • The priority of the complaint itself is related to the type of complaint and the desired department.
+
+3) As an Agent I want to be able to the ticket details and its associated number will be sent to the respective department's email address. Additionally, the email address of the agent who initiated the process will be included in the CC field of the email. So that Deparment will be notified
+Priority : High
+Module : On Call
+Sub Module : Email
+Description : 4- Email Address for the departments
+
+4) As an Agent I want to be able to the ticket details and its associated number will be sent to the respective department's email address. Additionally, the email address of the agent who initiated the process will be included in the CC field of the email. So that Deparment will be notified
+Priority : High
+Module : On Call
+Sub Module : Email
+Description : 4- Email Address for the departments
+
+5) As an Agent I want to be able to Once the agent creates a ticket, a unique identification number for the ticket will need to be sent to the customer's mobile number and email address. This should follow the given template format. So that customer will be intimitated properly
+Priority : High
+Module : On Call
+Sub Module : Email
+Description : Once the agent creates a ticket, a unique identification number for the ticket will need to be sent to the customer's mobile number and email address. This should follow the given template format.
+
+6) As an Admin I want to be able to After obtaining the necessary information from the customer, the agent will proceed to raise a ticket to the appropriate department. The agent will decide which department is better suited to address the issue. So that I can assing ticket to a specific department
+Priority : High
+Module : Omnichannel
+Sub Module : Tickets Settings
+Description : Name of All Departments • Projects Management department. • Customer Service department. • Orphans department • Resources development department. • Corporate Identity department • Information Technology department • General Aids department • Medical Aids department • Financial department • Partnerships department • Human resources department • Inventory department • Warehouse department • Purchase department • Management • Awareness and Education Department • Marketing department
+
+7) As an Agent I want to be able to Whenever a customer contacts Dubai Charity to file a complaint or raise any kind of query, a contact center agent will receive the inbound call from the customer. The agent will record all the information provided by the customer regarding the complaint or query So that The ticket will be created with only the columns i need
+Priority : High
+Module :
+Sub Module : Tickets Settings
+Description : Employee name Type of complaint Complaint description Name of customer phone E-mail Department
 > Tera Software:
 
 1) Customer is requesting for the ticketing module for the city corporation.
