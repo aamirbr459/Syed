@@ -1,2 +1,0 @@
-# Syed
-Senior Business Analyst
